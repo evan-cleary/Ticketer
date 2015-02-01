@@ -1,0 +1,37 @@
+name: Ticketer
+main: com.division.ticketer.core.Ticketer
+version: 0.2.5d
+description: Add a ticket support system to Bukkit.
+commands:
+  ticketer:
+    usage: /ticketer [arg]
+    description: Base command for Ticketer Plugin.
+  tappend:
+    usage: /tappend [message]
+    description: Appends the message of a ticket.
+  tcancel:
+    usage: /tcancel
+    description: Cancels a pending/open ticket.
+  tcreate:
+    usage: /tcreate
+    description: Creates a Ticketer ticket.
+  tmessage:
+    usage: /tmessage [message]
+    description: Sets the message of a ticket.
+  treset:
+    usage: /treset
+    description: Resets the message of a ticket.
+  tsubject:
+    usage: /tsubject [subject]
+    description: Sets the subject of a message.
+  tsubmit:
+    usage: /tsubmit
+    description: Submits a Ticketer ticket.
+  treply:
+    usage: /treply [message]
+    description: Replies to a Ticketer message.
+    aliases: [tr]
+  tconfirm:
+    usage: /tconfirm
+    description: Confirms a GMs attempt to contact you.
+authors: [Mastershake71]
